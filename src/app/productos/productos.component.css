@@ -1,0 +1,25 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section ul {
+    width: 300px;
+    list-style: none;
+}
+
+section ul li:first-child {
+    text-align: center;
+    font-weight: bolder;
+}
+
+section ul li {
+    text-align: justify;
+}
+
+section ul li img {
+    margin: 0;
+    width: 100%;
+    aspect-ratio: 3/4;
+}

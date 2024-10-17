@@ -1,0 +1,23 @@
+
+<nav>
+  <ul>
+    <li>
+      <a routerLink="/acerca-de">Acerca-de</a>
+    </li>
+    <li>
+      <a routerLink="/comunidad">Comunidad</a>
+    </li>
+    <li>
+      <a routerLink="/productos">Productos</a>
+    </li>
+  </ul>
+</nav>
+
+<router-outlet>
+</router-outlet>
+
+<header>
+  <h1>Pagina principal</h1>
+</header>
+  
+<button (click)="botonClick()">Tener permismos de admin, (estado actual: {{admin}})</button>

@@ -1,0 +1,13 @@
+<main>
+    <section>
+        @for(producto of datos; track producto.id) {
+            <ul>
+                <li>{{producto.title}}</li>
+                <li><img src={{producto.image}} alt="Producto del inventario"> </li>
+                <li>Precio: {{producto.price}}</li>
+                <li>{{producto.description}}</li>
+                <li>{{producto.category}}</li>
+            </ul>
+            }
+    </section>
+</main>
